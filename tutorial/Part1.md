@@ -17,3 +17,12 @@ Obtain the endpoint by going to the Azure ML Studio, go to your real-time endpoi
 3. From the **Start from blank** options, select **Instant flow**. 
 4. Give your flow a name and select **PowerApps** under **Choose how to trigger this flow**.
 <img src="/media/Picture2.PNG" alt="drawing" width="600"/>
+
+5. Add a **Next step**.
+6. Search for **HTTP** and add this as a next step to your flow. 
+  - Method: POST
+  - URI: This should be the REST endpoint you obtained from the AML Studio.
+  - Headers: 
+    key: Content-Type   	value: application/json
+  - Body: This should be whatever format your endpoint expects as input. Make sure that the amount of input values is correct according to the schema of the input data the model expects. In this case, our model expects to receive eight values in an object called data.
+  
