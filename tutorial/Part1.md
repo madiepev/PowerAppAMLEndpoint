@@ -20,9 +20,12 @@ Obtain the endpoint by going to the Azure ML Studio, go to your real-time endpoi
 
 5. Add a **Next step**.
 6. Search for **HTTP** and add this as a next step to your flow. 
-  - Method: POST
-  - URI: This should be the REST endpoint you obtained from the AML Studio.
-  - Headers: 
-    key: Content-Type   	value: application/json
-  - Body: This should be whatever format your endpoint expects as input. Make sure that the amount of input values is correct according to the schema of the input data the model expects. In this case, our model expects to receive eight values in an object called data.
+    - **Method**: POST
+    - **URI**: This should be the REST endpoint you obtained from the AML Studio.
+    - **Headers**: 
+      key: Content-Type   	value: application/json
+    - **Body**: This should be whatever format your endpoint expects as input. Make sure that the amount of input values is correct according to the schema of the input data the model expects. In this case, our model expects to receive eight values (a,b,c,d,e,f,g,h) in an object called data.
+      `{"data": [ [ a, b, c, d, e, f, g, h ] ] } `
+      Then we need to let the flow know these values are coming from the PowerApp we will create. So instead of a,b,c,... make sure to use the **Dynamic content** and **Ask in PowerApps**. You will have to do this eight times to make sure the flow understands it should take eight values from the PowerApps. It should then look like this:
+      <img src="/media/Picture3.png" alt="drawing" width="600"/>
   
