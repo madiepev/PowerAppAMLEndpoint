@@ -1,6 +1,8 @@
 # Integrate an Azure Machine Learning endpoint in your PowerApp
 
-In this tutorial, you will use PowerApps and PowerAutomate to quickly create an app that is using a model deployed on ACI with Azure Machine Learning.
+In this tutorial, you will use PowerApps and PowerAutomate to quickly create an app that is using a model deployed on ACI with Azure Machine Learning. There are two parts to this tutorial:
+- Part 1: Creating a PowerAutomate flow to call upon the model after we click on a button in our PowerApp
+- Part 2: Creating the PowerApp to fill in the data that will be sent to the model after clicking on a button and receiving the response/prediction from the model
 
 ### Contents
 This tutorial only covers how to integrate your already deployed model in PowerApps and PowerAutomate. The tutorial is based on a model that has been created and deployed in the DP-100: Designing and Implementing Data Science Solutions on Microsoft Azure course. Find the DP-100 instructions [here](https://github.com/MicrosoftLearning/DP100/tree/master/labdocs). 
