@@ -1,7 +1,5 @@
 # Integrate an Azure Machine Learning endpoint in your PowerApp
 
-### Why?
-
 In this tutorial, you will use PowerApps and PowerAutomate to quickly create an app that is using a model deployed on ACI with Azure Machine Learning.
 
 ### Contents
