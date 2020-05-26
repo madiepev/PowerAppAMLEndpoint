@@ -12,5 +12,20 @@ If you haven't participated in the full DP-100 course, these are the labs you ne
 - [Lab 1B](https://github.com/MicrosoftLearning/DP100/blob/master/labdocs/Lab01B.md): Task 1 only (installing SDK and cloning Git Repo)
 - [Lab 7A](https://github.com/MicrosoftLearning/DP100/blob/master/labdocs/Lab07A.md)
 
+### Resources
+This tutorial makes use of the following technologies:
+- Azure Machine Learning: 
+  - [Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
+  - [Learning Path on Microsoft Learn](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)
+- A deployed model on Azure Container Instances: 
+  - [Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-container-instance)
+- Power Automate: 
+  - [Documentation](https://docs.microsoft.com/en-us/power-automate/)
+  - [Short introduction on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/)
+  - [Learn how to create your own flows on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/get-started-flows/)
+- PowerApps: 
+  - [Documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started)
+  - [Short introduction on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps/)
+  - [Learn how to create your own apps on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/)
 
 
