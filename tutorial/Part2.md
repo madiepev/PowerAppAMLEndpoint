@@ -43,4 +43,4 @@ You should end up with something like this:
 
 You can now test your PowerApp to see if it works. You can do this by holding the **Alt** key on your keyboard while you navigate the app, or you can **Preview the app** by pressing **F5** or clicking on the play button on the top right of your screen. 
 
-<img src="/media/Picture10.PNG" alt="drawing" width="600"/>
+<img src="/media/Picture10.PNG" alt="drawing" width="300"/>
