@@ -27,16 +27,16 @@ You should end up with something like this:
 7. Make sure you have selected the button, then under **Action**, select **PowerAutomate**. A pop-up will appear. Your previously created flow should show up here as one of the options. Select your flow so that it will be attached to the button.
 8. Complete the flow's parameters in the formula bar above. If you've renamed your text inputs, you can use the following formula:
 `Set(Prediction,DemoDiabetesACI.Run(Value(Pregnancies.Text),Value(PlasmaGlucose.Text),Value(DiastolicBloodPressure.Text),Value(TricepsThickness.Text),Value(SerumInsulin.Text),Value(BMI.Text),Value(DiabetesPedigree.Text),Value(Age.Text))`
-  - Set(Prediction, ...: this makes sure the result of your flow is saved as a collection name Prediction so that we can visualize it later in our app
-  - DemoDiabetesACI: name of your flow
-  - Pregnancies, PlasmaGlucose, etc: name of your Text Inputs as they appear on the left in your Tree View. 
+    - Set(Prediction, ...: this makes sure the result of your flow is saved as a collection name Prediction so that we can visualize it later in our app
+    - DemoDiabetesACI: name of your flow
+    - Pregnancies, PlasmaGlucose, etc: name of your Text Inputs as they appear on the left in your Tree View. 
   
-  <img src="/media/Picture8.png" alt="drawing" width="600"/>
+    <img src="/media/Picture8.png" alt="drawing" width="600"/>
   
 9. Finally, we want to visualize our result in the same app. Under **Insert**, find **Label** and add it below your button.
 10. Select the newly inserted label, make sure you're changing the **Text** property and change it to have the value of our newly created collection **Prediction** (this is what we created with **Set** in the formula for our button):
 `Prediction.predictions`
 
-<img src="/media/Picture9.png" alt="drawing" width="600"/>
+<img src="/media/Picture9.PNG" alt="drawing" width="600"/>
 
 
