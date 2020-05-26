@@ -31,10 +31,10 @@ Obtain the endpoint by going to the Azure ML Studio, go to your real-time endpoi
 7. Add a **New step**.
 8. Search for **Compose** and add this as a next step to your flow.  
 9. As input, use the **Dynamic content** and choose **Body** from your HTTP output. This action should then look like this:
-<img src="/media/Picture4.png" alt="drawing" width="600"/>
+<img src="/media/Picture4.PNG" alt="drawing" width="600"/>
 10. Add a **New step**.
 11. Search for **Respond to a PowerApp or flow** and add this as a next step to your flow. 
 12. Define your **output** to be called **Predictions** with the value of **Outputs** from your previous **Compose** step. Use **Dynamic content** to get the **Outputs** from the previous step. It should then look like this:
-<img src="/media/Picture5.png" alt="drawing" width="600"/>
+<img src="/media/Picture5.PNG" alt="drawing" width="600"/>
 
 13. The flow is now finished. Make sure to **rename** it and **save** it so you can find and use it from the PowerApp we will create in Part 2.  
