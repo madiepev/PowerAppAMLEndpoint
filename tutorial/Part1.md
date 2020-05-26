@@ -38,4 +38,4 @@ Obtain the endpoint by going to the Azure ML Studio, go to your real-time endpoi
 12. Define your **output** to be called **Predictions** with the value of **Outputs** from your previous **Compose** step. Use **Dynamic content** to get the **Outputs** from the previous step. It should then look like this:
 <img src="/media/Picture5.PNG" alt="drawing" width="600"/>
 
-13. The flow is now finished. Make sure to **rename** it and **save** it so you can find and use it from the PowerApp we will create in Part 2.  
+The flow is now finished. Make sure to **rename** it if necessary and **save** it so you can find and use it from the PowerApp we will create in Part 2.  
